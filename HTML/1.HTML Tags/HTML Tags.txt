@@ -1,0 +1,369 @@
+1. Basic Structure Tags (MOST IMPORTANT)
+1) <html>
+
+Description:
+Root element of every HTML document. Wraps all visible and hidden content.
+Example:
+
+<html> ... </html>
+
+2) <head>
+
+Description:
+Contains metadata: title, CSS links, JS scripts, SEO tags. Not visible on the page.
+Example:
+
+<head> ... </head>
+
+3) <title>
+
+Description:
+Sets the text shown in the browser tab. Helps with SEO.
+Example:
+
+<title>My Webpage</title>
+
+4) <body>
+
+Description:
+Displays everything visible to users: text, images, buttons, forms, etc.
+Example:
+
+<body> ... </body>
+
+2. Text Formatting Tags (VERY IMPORTANT)
+5) <h1> to <h6>
+
+Description:
+Heading tags — <h1> is the most important, <h6> the least. Used for titles, SEO structure.
+Example:
+
+<h1>Main Title</h1>
+
+6) <p>
+
+Description:
+Creates a paragraph block. Automatically adds spacing.
+Example:
+
+<p>This is a paragraph.</p>
+
+7) <br>
+
+Description:
+Adds a line break. No closing tag.
+Example:
+
+Hello<br>World
+
+8) <b> / <strong>
+
+Description:
+<b> → bold without importance
+<strong> → bold + marked as important for screen readers
+Example:
+
+<strong>Warning!</strong>
+
+9) <i> / <em>
+
+Description:
+Italic text
+<em> gives semantic meaning (emphasis).
+Example:
+
+<em>Important text</em>
+
+10) <u>
+
+Description:
+Underlines text.
+Example:
+
+<u>Underline</u>
+
+3. Link & Media Tags (CRUCIAL)
+11) <a>
+
+Description:
+Creates hyperlinks to other pages, websites, or sections.
+Example:
+
+<a href="https://google.com">Google</a>
+
+12) <img>
+
+Description:
+Displays an image. Requires src and alt.
+Example:
+
+<img src="pic.jpg" alt="Image">
+
+13) <video>
+
+Description:
+Embeds a video with optional controls (play, pause).
+Example:
+
+<video src="movie.mp4" controls></video>
+
+14) <audio>
+
+Description:
+Embeds audio with controls.
+Example:
+
+<audio src="song.mp3" controls></audio>
+
+4. List Tags
+15) <ul>
+
+Description:
+Unordered list (bulleted items).
+Example:
+
+<ul><li>Item</li></ul>
+
+16) <ol>
+
+Description:
+Ordered list (numbered).
+Example:
+
+<ol><li>First</li></ol>
+
+17) <li>
+
+Description:
+List item inside <ul> or <ol>.
+Example:
+
+<li>Item</li>
+
+5. Table Tags (IMPORTANT FOR PRACTICE)
+18) <table>
+
+Description:
+Defines a table container.
+Example:
+
+<table></table>
+
+19) <tr>
+
+Description:
+Creates a table row.
+Example:
+
+<tr></tr>
+
+20) <td>
+
+Description:
+Table data cell (normal cell).
+Example:
+
+<td>Data</td>
+
+21) <th>
+
+Description:
+Table header cell (bold and centered by default).
+Example:
+
+<th>Name</th>
+
+22) <thead>, <tbody>, <tfoot>
+
+Description:
+Used to separate table sections (header, body, footer).
+Example:
+
+<thead>...</thead>
+
+6. Form Tags (IMPORTANT FOR PROJECTS & INTERVIEWS)
+23) <form>
+
+Description:
+Creates a form to send data to server.
+Example:
+
+<form action="submit.php"></form>
+
+24) <input>
+
+Description:
+Creates input fields like text, number, email, password.
+Example:
+
+<input type="text">
+
+25) <label>
+
+Description:
+Displays text label for input fields.
+Example:
+
+<label>Name:</label>
+
+26) <button>
+
+Description:
+Creates a clickable button.
+Example:
+
+<button>Submit</button>
+
+27) <textarea>
+
+Description:
+Multi-line text input.
+Example:
+
+<textarea></textarea>
+
+28) <select> and <option>
+
+Description:
+Creates a dropdown list with options.
+Example:
+
+<select>
+  <option>India</option>
+</select>
+
+7. Layout & Structure Tags (IMPORTANT FOR DESIGN)
+29) <div>
+
+Description:
+Block-level container used for layout.
+Example:
+
+<div>Section</div>
+
+30) <span>
+
+Description:
+Inline container used for styling small text.
+Example:
+
+<span>Highlight</span>
+
+31) <header>
+
+Description:
+Top section of page (logo, navbar, title).
+Example:
+
+<header>Title</header>
+
+32) <footer>
+
+Description:
+Bottom section of page.
+Example:
+
+<footer>© 2025</footer>
+
+33) <nav>
+
+Description:
+Navigation links container.
+Example:
+
+<nav>Menu</nav>
+
+34) <section>
+
+Description:
+Defines a section of content (grouping).
+Example:
+
+<section>Content</section>
+
+35) <article>
+
+Description:
+Independent content like a blog post.
+Example:
+
+<article>Blog Post</article>
+
+36) <aside>
+
+Description:
+Sidebar content (ads, related links).
+Example:
+
+<aside>Ads</aside>
+
+8. Metadata & External Linking (Moderately Important)
+37) <meta>
+
+Description:
+Defines metadata like charset, author, description, keywords.
+Example:
+
+<meta charset="UTF-8">
+
+38) <link>
+
+Description:
+Connects external CSS file.
+Example:
+
+<link rel="stylesheet" href="style.css">
+
+39) <script>
+
+Description:
+Loads JavaScript from file or inline.
+Example:
+
+<script src="app.js"></script>
+
+9. Semantic Tags (Useful for Modern HTML)
+40) <main>
+
+Description:
+Main content area of the page.
+Example:
+
+<main>...</main>
+
+41) <figure> + <figcaption>
+
+Description:
+Used for images or diagrams with captions.
+Example:
+
+<figure>
+  <img src="pic.jpg">
+  <figcaption>Caption</figcaption>
+</figure>
+
+10. Media & Advanced Tags (LOW PRIORITY)
+42) <iframe>
+
+Description:
+Embeds external content like maps, websites, videos.
+Example:
+
+<iframe src="https://google.com"></iframe>
+
+43) <canvas>
+
+Description:
+Used with JavaScript for drawing graphics and animations.
+(No HTML-only output)
+
+44) <details> + <summary>
+
+Description:
+Creates a collapsible section.
+Example:
+
+<details>
+  <summary>Read more</summary>
+  Extra content.
+</details>
